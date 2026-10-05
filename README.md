@@ -1,17 +1,57 @@
-# Quartz v4
+# 📚 Cadernos Digitais · Carreiras Policiais
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Cadernos de estudo em Markdown (estilo Obsidian), publicados como site com o
+[Quartz](https://quartz.jzhao.xyz). Feitos para estudar de qualquer lugar.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+🌐 **Site publicado:** https://arcelino-cavalcante.github.io/cadernos-carreiras-policiais/
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Como está organizado
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+```
+content/
+├── index.md                  ← página inicial
+├── como-usar.md              ← guia do PADRÃO das notas
+├── modelo-de-nota.md         ← modelo para copiar
+├── concursos/
+│   └── pmpe-2026-soldado/
+│       ├── index.md
+│       ├── raciocinio-logico/
+│       │   ├── index.md      ← CADERNO-MESTRE da disciplina
+│       │   └── *.md          ← notas de assunto
+│       └── ... (outras matérias)
+└── templates/                ← modelo do Obsidian (fora do site)
+```
 
-## Sponsors
+- **Caderno-mestre** = o `index.md` de cada disciplina, com o mapa de todo o conteúdo.
+- **Nota de assunto** = arquivo `.md` na pasta da disciplina, seguindo o padrão documentado em `content/como-usar.md`.
+- **Nova matéria/concurso** = crie as pastas e um `index.md`.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Como criar uma nota nova
+
+1. Copie o conteúdo de `content/modelo-de-nota.md` (ou use o arquivo em `templates/` no Obsidian).
+2. Salve na pasta da disciplina com nome curto, minúsculo e com hífen (ex.: `equivalencias-logicas.md`).
+3. Preencha o cabeçalho e escreva.
+4. Adicione o link da nota no caderno-mestre (`index.md`) na seção **“Notas que eu criei”**.
+
+## Como testar localmente
+
+```bash
+npm ci
+npx quartz build --serve
+```
+
+Abra http://localhost:8080
+
+## Como publicar (colocar no ar)
+
+```bash
+npx quartz sync
+```
+
+O GitHub Actions reconstrói o site automaticamente a cada envio para a branch
+`main` (veja `.github/workflows/deploy.yml`). Em ~2 minutos o site é atualizado.
+
+## PDFs das aulas
+
+Os PDFs baixados da plataforma ficam **na pasta local**, fora deste repositório
+(`~/Documents/PMPE 2026 - Raciocinio Logico - PDFs`), e não são publicados.
