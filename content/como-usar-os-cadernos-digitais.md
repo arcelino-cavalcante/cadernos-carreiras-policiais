@@ -38,12 +38,6 @@ Você não precisa preencher todas as seções. Uma nota curta que ajude a lembr
 
 Use as caixas como lembretes para rever no dia seguinte, em 7 dias e em 30 dias. O campo `status` pode ser `estudando`, `revisar` ou `dominado`.
 
-## Recursos úteis
-
-- [[recursos/recursos-visuais|🎨 Guia visual dos cadernos]]
-- [[recursos/diagramas-mermaid|🎨 Diagramas a partir de texto]]
-- [[recursos/atalhos-e-plugins|⚙️ Atalhos e plugins]]
-
 ## Publicar
 
-O vault é `content/`. O Quartz publica as notas depois que as mudanças chegam ao GitHub. As pastas `.obsidian` e `templates/` ficam fora do site.
+O vault é `content/`. O Quartz publica as notas depois que as mudanças chegam ao GitHub. As pastas `.obsidian`, `templates/` e `recursos/` ficam **fora do site** (só no seu Obsidian).

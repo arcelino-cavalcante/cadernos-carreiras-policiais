@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "pt-BR",
     baseUrl: "arcelino-cavalcante.github.io/cadernos-carreiras-policiais",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "recursos"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
