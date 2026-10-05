@@ -16,11 +16,6 @@ mkdir -p "$PLUGINS_DIR"
 echo "Vault: $VAULT"
 
 echo "==> Baixando plugins comunitários..."
-python3 - <<'PY'
-import json, os, subprocess, urllib.request
-PLUGINS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)) if "__file__" in dir() else os.getcwd(), "")
-PY
-
 python3 - "$PLUGINS_DIR" <<'PY'
 import json, os, subprocess, sys, urllib.request
 plugins_dir = sys.argv[1]
@@ -28,11 +23,8 @@ repos = [
     "SilentVoid13/Templater",
     "zsviczian/obsidian-excalidraw-plugin",
     "Vinzent03/obsidian-git",
-    "st3v3nmw/obsidian-spaced-repetition",
     "blacksmithgu/obsidian-dataview",
-    "chhoumann/quickadd",
     "platers/obsidian-linter",
-    "tgrosinger/advanced-tables-obsidian",
 ]
 try:
     token = subprocess.check_output(["gh", "auth", "token"]).decode().strip()
@@ -74,12 +66,9 @@ cat > "$OBS/community-plugins.json" <<'JSON'
 [
   "templater-obsidian",
   "dataview",
-  "quickadd",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "obsidian-spaced-repetition",
-  "obsidian-linter",
-  "table-editor-obsidian"
+  "obsidian-linter"
 ]
 JSON
 
@@ -117,8 +106,6 @@ JSON
 cat > "$OBS/hotkeys.json" <<'JSON'
 {
   "templater-obsidian:create-new-note-from-template": [{ "modifiers": ["Mod"], "key": "N" }],
-  "quickadd:runQuickAdd": [{ "modifiers": ["Mod", "Shift"], "key": "Q" }],
-  "obsidian-spaced-repetition:srs-review-flashcards": [{ "modifiers": ["Mod", "Shift"], "key": "R" }],
   "global-search:open": [{ "modifiers": ["Mod", "Shift"], "key": "F" }],
   "switcher:open": [{ "modifiers": ["Mod"], "key": "O" }],
   "command-palette:open": [{ "modifiers": ["Mod"], "key": "P" }]
@@ -136,14 +123,13 @@ cat > "$PLUGINS_DIR/templater-obsidian/data.json" <<'JSON'
   "user_scripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [
-    { "folder": "concursos", "template": "templates/Gerar nota de estudo.md" },
-    { "folder": "concursos/pmpe-2026-soldado/lingua-portuguesa", "template": "templates/Gerar nota de estudo.md" },
-    { "folder": "concursos/pmpe-2026-soldado/historia-de-pernambuco", "template": "templates/Gerar nota de estudo.md" },
+    { "folder": "concursos/pmpe-2026-soldado/lingua-portuguesa", "template": "templates/Português e redação.md" },
+    { "folder": "concursos/pmpe-2026-soldado/historia-de-pernambuco", "template": "templates/História e cronologia.md" },
     { "folder": "concursos/pmpe-2026-soldado/raciocinio-logico", "template": "templates/Gerar nota de estudo.md" },
     { "folder": "concursos/pmpe-2026-soldado/informatica", "template": "templates/Gerar nota de estudo.md" },
-    { "folder": "concursos/pmpe-2026-soldado/direito-constitucional", "template": "templates/Gerar nota de estudo.md" },
-    { "folder": "concursos/pmpe-2026-soldado/direitos-humanos-e-legislacao-extravagante", "template": "templates/Gerar nota de estudo.md" },
-    { "folder": "concursos/pmpe-2026-soldado/redacao", "template": "templates/Gerar nota de estudo.md" }
+    { "folder": "concursos/pmpe-2026-soldado/direito-constitucional", "template": "templates/Lei e jurisprudência.md" },
+    { "folder": "concursos/pmpe-2026-soldado/direitos-humanos-e-legislacao-extravagante", "template": "templates/Lei e jurisprudência.md" },
+    { "folder": "concursos/pmpe-2026-soldado/redacao", "template": "templates/Português e redação.md" }
   ],
   "enable_file_templates": false,
   "file_templates": [{ "regex": ".*", "template": "" }],

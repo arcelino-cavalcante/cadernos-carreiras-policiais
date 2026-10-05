@@ -8,16 +8,14 @@ concurso: "PMPE 2026 (Soldado)"
 status: em-andamento
 ---
 
-> [!info] Como usar este caderno
-> Este é o **caderno-mestre** da disciplina. Ele guarda o mapa de **todo o conteúdo** e serve de índice para as suas notas. Crie uma nota para cada assunto seguindo o [[modelo-de-nota|Modelo de Nota]] e linke aqui na linha do tópico.
+> [!tip] Estude e registre
+> Marque as aulas no mapa. Crie uma nota para uma regra, ideia, questão ou dúvida que queira rever; use `Cmd/Ctrl + N` e depois ligue a nota nesta lista.
 
-**Concurso:** PMPE 2026 (Soldado)  ·  **Aulas:** 39  ·  **Concluídas:** 0
+**Concurso:** PMPE 2026 (Soldado) · **Aulas:** 39 · **Concluídas:** 0
 
 ## 🗂️ Notas que eu criei
 
-_Substitua a lista abaixo pelas notas que você for criando (ex.: `- [[Sentença]]`)._
-
-- 
+_Adicione aqui os links das notas que ajudam você a revisar._
 
 ## 🗺️ Mapa do conteúdo
 
@@ -28,8 +26,8 @@ _Substitua a lista abaixo pelas notas que você for criando (ex.: `- [[Sentença
 - [ ] Ocupação e Colonização - Parte 03
 - [ ] Ocupação e Colonização - Parte 04
 - [ ] Resolução de Questões - Ocupação e Colonização
-- [ ] Economia Açucareira  - A Importância do Açúcar Para a Economia Local - Parte 01
-- [ ] Economia Açucareira  - A Importância do Açúcar Para a Economia Local - Parte 02
+- [ ] Economia Açucareira - A Importância do Açúcar Para a Economia Local - Parte 01
+- [ ] Economia Açucareira - A Importância do Açúcar Para a Economia Local - Parte 02
 - [ ] Resolução de Questões - Economia Açucareira
 - [ ] Movimento Resistência e Formação de Quilombos
 - [ ] A Presença Holandesa e o Governo de Nassau - Parte 01
@@ -38,8 +36,8 @@ _Substitua a lista abaixo pelas notas que você for criando (ex.: `- [[Sentença
 - [ ] A Guerra dos Mascates
 - [ ] Resolução de Questões - Domínio Holandês e Guerra dos Mascates
 - [ ] Período Joanino e a Revolução Pernambucana de 1817
-- [ ] Primeiro Reinado -  A Confederação Do Equador - Parte 01
-- [ ] Primeiro Reinado -  A Confederação Do Equador - Parte 02
+- [ ] Primeiro Reinado - A Confederação Do Equador - Parte 01
+- [ ] Primeiro Reinado - A Confederação Do Equador - Parte 02
 - [ ] Período Regencial - Cabanada - Parte 01
 - [ ] Período Regencial - Cabanada - Parte 02
 - [ ] Revolução Praieira

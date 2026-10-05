@@ -1,29 +1,32 @@
 ---
-title: "📚 Cadernos Digitais · Carreiras Policiais"
+title: "📚 Meus cadernos de estudo"
+tags:
+  - inicio
 ---
 
-Bem-vindo(a)! Aqui ficam os meus **cadernos de estudo** para concursos das carreiras policiais. Tudo em Markdown, aberto no navegador, de qualquer lugar.
+> [!tip] Para começar
+> Escolha uma disciplina, estude a próxima aula do mapa e crie uma nota só para o que quiser guardar ou revisar. O modelo adequado aparece com `Cmd/Ctrl + N` dentro da pasta da matéria.
 
-> [!tip] Comece por aqui
-> - [[como-usar|📖 Como usar o caderno]] — explica o **padrão** e como criar notas novas.
-> - [[modelo-de-nota|📝 Modelo de nota]] — copie este modelo para criar uma nota nova.
+## 🚔 Concurso em andamento
 
-## 🎯 Concursos
+[[concursos/pmpe-2026-soldado/index|PMPE 2026 — Soldado]]
 
-- [[concursos/pmpe-2026-soldado/index|🚔 PMPE 2026 (Soldado) - Pós-Edital]]
+## 📘 Acesso rápido às disciplinas
 
-## 🧰 Recursos e ferramentas
+- [[concursos/pmpe-2026-soldado/lingua-portuguesa/index|Língua Portuguesa]]
+- [[concursos/pmpe-2026-soldado/historia-de-pernambuco/index|História de Pernambuco]]
+- [[concursos/pmpe-2026-soldado/raciocinio-logico/index|Raciocínio Lógico]]
+- [[concursos/pmpe-2026-soldado/informatica/index|Informática]]
+- [[concursos/pmpe-2026-soldado/direito-constitucional/index|Direito Constitucional]]
+- [[concursos/pmpe-2026-soldado/direitos-humanos-e-legislacao-extravagante/index|Direitos Humanos e Legislação Extravagante]]
+- [[concursos/pmpe-2026-soldado/redacao/index|Redação]]
 
-- [[recursos/atalhos-e-plugins|⚙️ Atalhos e plugins do Obsidian]] — como escrever rápido e manter o padrão.
-- [[recursos/diagramas-mermaid|🎨 Diagramas a partir de texto (Mermaid)]] — escreva em texto e vire esquema.
+## 🧰 Guias e recursos
 
-## 🧭 Atalhos rápidos
+- [[como-usar|Como usar os cadernos]] — fluxo de estudo e revisão.
+- [[modelo-de-nota|Modelo simples de nota]] — estrutura curta para escrever.
+- [[recursos/atalhos-e-plugins|Atalhos do Obsidian]]
+- [[recursos/diagramas-mermaid|Diagramas Mermaid]]
 
-- 🔎 Busque qualquer assunto na **barra de busca** (canto superior).
-- 🏷️ Navegue por assunto pelas **tags** no fim de cada nota.
-- 🌗 Alterne entre tema claro/escuro pelo ícone no topo.
-
----
-
-> [!note] Como este site é feito
-> As notas são arquivos `.md` numa pasta local. Ao enviar as mudanças para o GitHub, o site é reconstruído automaticamente em poucos minutos. Veja [[como-usar]] para o passo a passo.
+> [!note] Publicação
+> O Obsidian guarda as notas em Markdown; o Quartz transforma o conteúdo em site quando as mudanças são enviadas ao GitHub.

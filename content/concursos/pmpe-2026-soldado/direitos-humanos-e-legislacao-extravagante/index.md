@@ -8,22 +8,20 @@ concurso: "PMPE 2026 (Soldado)"
 status: em-andamento
 ---
 
-> [!info] Como usar este caderno
-> Este é o **caderno-mestre** da disciplina. Ele guarda o mapa de **todo o conteúdo** e serve de índice para as suas notas. Crie uma nota para cada assunto seguindo o [[modelo-de-nota|Modelo de Nota]] e linke aqui na linha do tópico.
+> [!tip] Estude e registre
+> Marque as aulas no mapa. Crie uma nota para uma regra, ideia, questão ou dúvida que queira rever; use `Cmd/Ctrl + N` e depois ligue a nota nesta lista.
 
-**Concurso:** PMPE 2026 (Soldado)  ·  **Aulas:** 63  ·  **Concluídas:** 0
+**Concurso:** PMPE 2026 (Soldado) · **Aulas:** 63 · **Concluídas:** 0
 
 ## 🗂️ Notas que eu criei
 
-_Substitua a lista abaixo pelas notas que você for criando (ex.: `- [[Sentença]]`)._
-
-- 
+_Adicione aqui os links das notas que ajudam você a revisar._
 
 ## 🗺️ Mapa do conteúdo
 
 ### 1. Direitos Humanos na Constituição
 
-- [ ] Direitos Humanos  - Parte 01
+- [ ] Direitos Humanos - Parte 01
 - [ ] Direitos Humanos - Parte 02
 - [ ] Direitos Humanos - Parte 03
 
@@ -77,9 +75,9 @@ _Substitua a lista abaixo pelas notas que você for criando (ex.: `- [[Sentença
 
 ### 8. Lei n. 7.716/1989 (Lei dos Crimes resultantes de Preconceito de Raça ou de Cor).
 
-- [ ] Lei nº 7.716/ 1989-  Define os crimes resultantes de preconceito de raça ou de cor - Parte 01
+- [ ] Lei nº 7.716/ 1989- Define os crimes resultantes de preconceito de raça ou de cor - Parte 01
 - [ ] Lei nº 7.716/ 1989 - Define os crimes resultantes de preconceito de raça ou de cor - Parte 02
-- [ ] Lei nº 7.716/ 1989 -  Define os crimes resultantes de preconceito de raça ou de cor - Parte 03
+- [ ] Lei nº 7.716/ 1989 - Define os crimes resultantes de preconceito de raça ou de cor - Parte 03
 
 ### 9. Lei n. 9.605/1998 (Lei dos Crimes Ambientais).
 
@@ -122,6 +120,4 @@ _Substitua a lista abaixo pelas notas que você for criando (ex.: `- [[Sentença
 
 ### 13. Lei nº 10.741/2003 – Estatuto da Pessoa Idosa
 
-
 ### 14. Lei Federal nº 12.852/2013 - Estatuto da Juventude
-

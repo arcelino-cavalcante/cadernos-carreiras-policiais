@@ -8,14 +8,14 @@ concurso: "PMPE 2026 (Soldado)"
 status: em-andamento
 ---
 
-> [!info] Como usar este caderno
-> Este é o **caderno-mestre** da disciplina. Ele guarda o mapa de **todo o conteúdo** e serve de índice para as suas notas. Crie uma nota para cada assunto seguindo o [[modelo-de-nota|Modelo de Nota]] e linke aqui na linha do tópico.
+> [!tip] Estude e registre
+> Marque as aulas no mapa. Crie uma nota para uma regra, ideia, questão ou dúvida que queira rever; use `Cmd/Ctrl + N` e depois ligue a nota nesta lista.
 
-**Concurso:** PMPE 2026 (Soldado)  ·  **Aulas:** 92  ·  **Concluídas:** 32
+**Concurso:** PMPE 2026 (Soldado) · **Aulas:** 92 · **Concluídas:** 32
 
 ## 🗂️ Notas que eu criei
 
-- [[logica-proposicional|Lógica Proposicional]] _(exemplo — apague ou use como referência)_
+- [[logica-proposicional|Lógica Proposicional]]
 
 ## 🗺️ Mapa do conteúdo
 
@@ -100,7 +100,7 @@ status: em-andamento
 - [ ] Diagramas Lógicos - Parte 05
 - [ ] Diagramas Lógicos - Parte 06
 
-### 2. Princípios  da contagem.
+### 2. Princípios da contagem.
 
 - [ ] Análise Combinatória ou Princípios de Contagem - Parte 01
 - [ ] Análise Combinatória ou Princípios de Contagem - Parte 02

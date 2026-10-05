@@ -1,46 +1,38 @@
 ---
 title: "<% tp.file.title %>"
 tags:
-  - "<% tp.file.folder(true).split('/').pop() %>"
-materia: "<% tp.file.folder(true).split('/').pop() %>"
+  - <% tp.file.folder(true).split('/').pop() %>
+materia: "<% tp.file.folder(true).split('/').pop() === 'raciocinio-logico' ? 'Raciocínio Lógico' : 'Informática' %>"
 concurso: "PMPE 2026 (Soldado)"
-topico: ""
-status: rascunho
-dificuldade: 2
+status: estudando
 fonte: ""
-criado: <% tp.date.now("YYYY-MM-DD") %>
-atualizado: <% tp.date.now("YYYY-MM-DD") %>
+estudado: <% tp.date.now("YYYY-MM-DD") %>
+revisar_em: <% tp.date.now("YYYY-MM-DD", 1) %>
 ---
 
-> [!abstract] Resumo em uma frase
-> Escreva em uma frase o que este assunto ensina.
+> [!summary] Em uma frase
+> Qual é a ideia principal desta aula?
 
-## 🎯 Objetivo
-- 
+## Anotações
 
-## 📌 Conceitos-chave
-- **Termo** — definição curta.
+Escreva com suas palavras. As seções abaixo são opcionais.
 
-## 🧠 Explicação
-Explique com as suas palavras.
+## Exemplo ou questão
 
-## 🔑 Regras / Fórmulas
-- 
+- **Enunciado:**
+- **Como resolvi:**
+- **O que aprendi:**
 
-## 🧩 Exemplos
-**Exemplo 1.** 
-- 
+## Dúvida / ponto para revisar
 
-## ⚠️ Pegadinhas
-- 
+- [ ]
 
-## ❓ Dúvidas
-- [ ] 
+## Próxima revisão
 
-## 🔁 Revisão espaçada
-| Data | Acertos | Observações |
-| ---- | ------- | ----------- |
-|      |         |             |
+- [ ] Amanhã
+- [ ] Em 7 dias
+- [ ] Em 30 dias
 
-## 🔗 Ligações
-- [[index|📕 Caderno da disciplina]]
+## Ligações
+
+- [[index|Caderno da disciplina]]

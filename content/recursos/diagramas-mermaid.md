@@ -10,7 +10,7 @@ tags:
 
 Você escreve **texto** e o Obsidian (e o site) transformam em **esquema**. É só abrir um bloco de código com a linguagem `mermaid`.
 
-No Obsidian, use `` ```mermaid `` e escreva o diagrama. No site (Quartz) ele aparece igual.
+No Obsidian, use ` ```mermaid ` e escreva o diagrama. No site (Quartz) ele aparece igual.
 
 > [!tip] Teste rápido
 > Copie um exemplo abaixo, cole numa nota nova e veja o desenho aparecer.
