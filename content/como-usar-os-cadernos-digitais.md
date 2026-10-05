@@ -9,18 +9,17 @@ O site foi organizado para você chegar ao conteúdo em três passos:
 
 1. **Escolha um concurso** na seção [[concursos/index|Concursos]].
 2. **Escolha uma disciplina** na página do concurso. Cada matéria abre seu próprio caderno.
-3. **Estude pelo caderno da disciplina**: siga o mapa de conteúdo, marque as aulas e abra as notas para aprofundar o assunto.
+3. **Estude pelo caderno da disciplina**: siga os assuntos na ordem e escreva suas anotações sob cada título.
 
 > [!tip] Começar agora
 > [[concursos/index|Ver concursos →]]
 
 ## Seu fluxo de estudo
 
-1. Abra o caderno da disciplina e escolha a próxima aula no mapa.
-2. Marque a aula como concluída depois de estudar.
-3. Crie uma nota quando houver algo que valha guardar: regra, resumo seu, erro ou dúvida.
-4. Adicione o link da nota em **Notas que eu criei** no caderno da disciplina.
-5. Na revisão, registre o que ainda precisa de atenção.
+1. Abra o caderno da disciplina e siga os assuntos na ordem.
+2. Escreva suas anotações sob cada título: conceito, regra, exemplo, dúvida.
+3. Quando um caso isolado precisar de nota própria, crie uma **nota separada** e linke aqui no caderno.
+4. Na revisão, registre o que ainda precisa de atenção.
 
 > [!tip] Captura rápida no Obsidian
 > Dentro da pasta da disciplina, pressione `Cmd/Ctrl + N`. O Templater escolhe o modelo da matéria; o nome do arquivo vira o título da nota.

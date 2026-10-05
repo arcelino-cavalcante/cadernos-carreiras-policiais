@@ -9,110 +9,171 @@ status: em-andamento
 publish: true
 ---
 
-> [!tip] Estude e registre
-> Marque as aulas no mapa. Crie uma nota para uma regra, ideia, questão ou dúvida que queira rever; use `Cmd/Ctrl + N` e depois ligue a nota nesta lista.
+> [!info] Sobre este caderno
+> Todos os assuntos da matéria estão abaixo, na ordem. Estude seguindo o conteúdo e escreva suas anotações sob cada título. Se um caso isolado precisar de nota própria, crie uma **nota separada** e linke aqui.
 
-**Concurso:** PMPE 2026 (Soldado) · **Aulas:** 76 · **Concluídas:** 1
+## 1. Conceito de internet e intranet
 
-## 🗂️ Notas que eu criei
+### Definições de Redes - Internet, Intranet e Extranet
 
-_Adicione aqui os links das notas que ajudam você a revisar._
+### Internet - Conceitos de operação
 
-## 🗺️ Mapa do conteúdo
+### Estrutura da Internet
 
-### 1. Conceito de internet e intranet
+### World Wide Web - Conceito e características
 
-- [x] Definições de Redes - Internet, Intranet e Extranet
-- [ ] Internet - Conceitos de operação
-- [ ] Estrutura da Internet
-- [ ] World Wide Web - Conceito e características
-- [ ] Deepweb - Conceito e características
-- [ ] Darkweb - Conceito e características
-- [ ] Internet 2.0 - Conceito e características
-- [ ] Intranet - Parte 01
-- [ ] Intranet - Parte 02
-- [ ] Extranet - Conceito e características
+### Deepweb - Conceito e características
 
-### 2. Conceitos básicos e modos de utilização de tecnologias, ferramentas, aplicativos e procedimentos associados a internet/intranet.
+### Darkweb - Conceito e características
 
-- [ ] Navegação na Internet - Parte 01
-- [ ] Navegação na Internet - Parte 02
-- [ ] Motores de Buscas
-- [ ] Grupo de Discussão e Rede Social
-- [ ] Computação em Nuvem - Conceitos
-- [ ] Computação em Nuvem - Regras NIST
-- [ ] Cloud Computing - Tipos de Serviços
-- [ ] Cloud Computing - Tipos de Implementações
+### Internet 2.0 - Conceito e características
 
-### 3. Sistemas Operacionais.
+### Intranet - Parte 01
 
-- [ ] Conceitos Fundamentais
-- [ ] Firmware e BIOS
-- [ ] Hardware (Periféricos)
-- [ ] Arquitetura de Memórias - Parte 01
-- [ ] Arquitetura de Memórias - Parte 02
-- [ ] Grandezas da Informática
-- [ ] Conceitos de Sistemas Operacionais - Parte 01
-- [ ] Conceitos de Sistemas Operacionais - Parte 02
-- [ ] Microsoft Windows - Parte 01
-- [ ] Microsoft Windows - Parte 02
-- [ ] Microsoft Windows - Parte 03
-- [ ] Microsoft Windows - Parte 04
-- [ ] Microsoft Windows - Parte 05
+### Intranet - Parte 02
 
-### 4. Conceitos de proteção e segurança da informação
+### Extranet - Conceito e características
 
-- [ ] Princípios Básicos de Segurança da Informação
-- [ ] Criptografia - Parte 01
-- [ ] Criptografia - Parte 02
-- [ ] Certificado e Assinatura Digital
-- [ ] Malwares - Parte 01
-- [ ] Malwares - Parte 02
-- [ ] Malwares - Parte 03
-- [ ] Malwares - Parte 04
-- [ ] Práticas e ataques - Parte 01
-- [ ] Práticas e ataques - Parte 02
-- [ ] Antivírus - Parte 01
-- [ ] Antivírus - Parte 02
-- [ ] Firewall - Parte 01
-- [ ] Firewall - Parte 02
-- [ ] Ferramentas de proteção
-- [ ] Autenticação de Multifator - MFA
-- [ ] Biometria
+## 2. Conceitos básicos e modos de utilização de tecnologias, ferramentas, aplicativos e procedimentos associados a internet/intranet.
 
-### 5. Procedimentos, aplicativos e dispositivos para armazenamento de dados e para realização de cópia de segurança (backup)
+### Navegação na Internet - Parte 01
 
-- [ ] Backup - Parte 01
-- [ ] Backup - Parte 02
-- [ ] Backup - Parte 03
-- [ ] Backup - Parte 04
+### Navegação na Internet - Parte 02
 
-### 6. Microsoft Office
+### Motores de Buscas
 
-- [ ] Microsoft PowerPoint
-- [ ] Excel - Parte 01
-- [ ] Excel - Parte 02
-- [ ] Excel - Parte 03
-- [ ] Excel - Parte 04
-- [ ] Excel - Parte 05
-- [ ] Excel - Parte 06
-- [ ] Excel - Parte 07
-- [ ] Excel - Parte 08
-- [ ] Microsoft Word - Parte 01
-- [ ] Microsoft Word - Parte 02
-- [ ] Microsoft Word - Parte 03
-- [ ] Microsoft Word - Parte 04
-- [ ] Microsoft Word - Parte 05
+### Grupo de Discussão e Rede Social
 
-### 7. LibreOffice
+### Computação em Nuvem - Conceitos
 
-- [ ] LibreOffice Writer - Parte 01
-- [ ] LibreOffice Writer - Parte 02
-- [ ] LibreOffice Writer - Parte 03
-- [ ] LibreOffice Writer - Parte 04
-- [ ] LibreOffice Calc - Parte 01
-- [ ] LibreOffice Calc - Parte 02
-- [ ] LibreOffice Calc - Parte 03
-- [ ] LibreOffice Calc - Parte 04
-- [ ] LibreOffice Calc - Parte 05
-- [ ] LibreOffice Calc - Parte 06
+### Computação em Nuvem - Regras NIST
+
+### Cloud Computing - Tipos de Serviços
+
+### Cloud Computing - Tipos de Implementações
+
+## 3. Sistemas Operacionais.
+
+### Conceitos Fundamentais
+
+### Firmware e BIOS
+
+### Hardware (Periféricos)
+
+### Arquitetura de Memórias - Parte 01
+
+### Arquitetura de Memórias - Parte 02
+
+### Grandezas da Informática
+
+### Conceitos de Sistemas Operacionais - Parte 01
+
+### Conceitos de Sistemas Operacionais - Parte 02
+
+### Microsoft Windows - Parte 01
+
+### Microsoft Windows - Parte 02
+
+### Microsoft Windows - Parte 03
+
+### Microsoft Windows - Parte 04
+
+### Microsoft Windows - Parte 05
+
+## 4. Conceitos de proteção e segurança da informação
+
+### Princípios Básicos de Segurança da Informação
+
+### Criptografia - Parte 01
+
+### Criptografia - Parte 02
+
+### Certificado e Assinatura Digital
+
+### Malwares - Parte 01
+
+### Malwares - Parte 02
+
+### Malwares - Parte 03
+
+### Malwares - Parte 04
+
+### Práticas e ataques - Parte 01
+
+### Práticas e ataques - Parte 02
+
+### Antivírus - Parte 01
+
+### Antivírus - Parte 02
+
+### Firewall - Parte 01
+
+### Firewall - Parte 02
+
+### Ferramentas de proteção
+
+### Autenticação de Multifator - MFA
+
+### Biometria
+
+## 5. Procedimentos, aplicativos e dispositivos para armazenamento de dados e para realização de cópia de segurança (backup)
+
+### Backup - Parte 01
+
+### Backup - Parte 02
+
+### Backup - Parte 03
+
+### Backup - Parte 04
+
+## 6. Microsoft Office
+
+### Microsoft PowerPoint
+
+### Excel - Parte 01
+
+### Excel - Parte 02
+
+### Excel - Parte 03
+
+### Excel - Parte 04
+
+### Excel - Parte 05
+
+### Excel - Parte 06
+
+### Excel - Parte 07
+
+### Excel - Parte 08
+
+### Microsoft Word - Parte 01
+
+### Microsoft Word - Parte 02
+
+### Microsoft Word - Parte 03
+
+### Microsoft Word - Parte 04
+
+### Microsoft Word - Parte 05
+
+## 7. LibreOffice
+
+### LibreOffice Writer - Parte 01
+
+### LibreOffice Writer - Parte 02
+
+### LibreOffice Writer - Parte 03
+
+### LibreOffice Writer - Parte 04
+
+### LibreOffice Calc - Parte 01
+
+### LibreOffice Calc - Parte 02
+
+### LibreOffice Calc - Parte 03
+
+### LibreOffice Calc - Parte 04
+
+### LibreOffice Calc - Parte 05
+
+### LibreOffice Calc - Parte 06
