@@ -1,8 +1,110 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ============================================================
+//  MEU CADERNO — tema limpo com código de cores para estudo
+// ============================================================
 
 // Rodapé desativado
 .page-footer {
   display: none;
+}
+
+// --- Títulos: hierarquia mais clara -------------------------
+article {
+  & h2 {
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 0.25rem;
+  }
+  & h3 {
+    color: var(--secondary);
+    opacity: 0.92;
+  }
+}
+
+// --- Código de cores das caixas (callouts) ------------------
+// 🔵 Azul    = informação / definição
+// 🟦 Ciano   = resumo
+// 🟢 Verde   = dica / macete / sucesso
+// 🟡 Âmbar   = atenção / dúvida
+// 🔴 Vermelho= pegadinha / erro
+// 🟣 Roxo    = exemplo
+// ⚪ Cinza   = citação / lei
+.callout {
+  &[data-callout],
+  &[data-callout="note"] {
+    --color: #2563a8;
+    --border: #2563a833;
+    --bg: #2563a810;
+  }
+
+  &[data-callout="abstract"],
+  &[data-callout="summary"],
+  &[data-callout="tldr"] {
+    --color: #0e7490;
+    --border: #0e749033;
+    --bg: #0e749010;
+  }
+
+  &[data-callout="info"],
+  &[data-callout="todo"] {
+    --color: #2563a8;
+    --border: #2563a833;
+    --bg: #2563a810;
+  }
+
+  &[data-callout="tip"],
+  &[data-callout="hint"],
+  &[data-callout="important"] {
+    --color: #15803d;
+    --border: #15803d33;
+    --bg: #15803d10;
+  }
+
+  &[data-callout="success"],
+  &[data-callout="check"],
+  &[data-callout="done"] {
+    --color: #16a34a;
+    --border: #16a34a33;
+    --bg: #16a34a10;
+  }
+
+  &[data-callout="question"],
+  &[data-callout="help"],
+  &[data-callout="faq"] {
+    --color: #b45309;
+    --border: #b4530933;
+    --bg: #b4530910;
+  }
+
+  &[data-callout="warning"],
+  &[data-callout="caution"],
+  &[data-callout="attention"] {
+    --color: #d97706;
+    --border: #d9770633;
+    --bg: #d9770610;
+  }
+
+  &[data-callout="failure"],
+  &[data-callout="fail"],
+  &[data-callout="missing"],
+  &[data-callout="danger"],
+  &[data-callout="error"],
+  &[data-callout="bug"] {
+    --color: #dc2626;
+    --border: #dc262633;
+    --bg: #dc262610;
+  }
+
+  &[data-callout="example"] {
+    --color: #7c3aed;
+    --border: #7c3aed33;
+    --bg: #7c3aed10;
+  }
+
+  &[data-callout="quote"],
+  &[data-callout="cite"] {
+    --color: #64748b;
+    --border: #64748b33;
+    --bg: #64748b0d;
+  }
 }

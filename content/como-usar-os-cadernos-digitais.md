@@ -38,6 +38,23 @@ Você não precisa preencher todas as seções. Uma nota curta que ajude a lembr
 
 Use as caixas como lembretes para rever no dia seguinte, em 7 dias e em 30 dias. O campo `status` pode ser `estudando`, `revisar` ou `dominado`.
 
+## 🎨 Código de cores das notas
+
+Use sempre as **mesmas cores** para o cérebro fixar mais rápido. A caixa é escrita assim: `> [!tipo] Título`.
+
+| Cor | Tipo | Use para | Digite |
+| --- | --- | --- | --- |
+| 🔵 Azul | `info` | informação, definição | `> [!info]` |
+| 🟦 Ciano | `abstract` | resumo do assunto | `> [!abstract]` |
+| 🟢 Verde | `tip` | dica, macete, bizu | `> [!tip]` |
+| 🟡 Âmbar | `warning` | atenção, cuidado | `> [!warning]` |
+| 🔴 Vermelho | `danger` | pegadinha, erro comum | `> [!danger]` |
+| 🟣 Roxo | `example` | exemplo, questão resolvida | `> [!example]` |
+| ⚪ Cinza | `quote` | citação de lei, fonte | `> [!quote]` |
+
+> [!tip] Macete de revisão
+> Quanto mais consistente você for com as cores, mais o padrão "salta aos olhos" na hora de revisar.
+
 ## Publicar
 
 O vault é `content/`. O Quartz publica as notas depois que as mudanças chegam ao GitHub. As pastas `.obsidian`, `templates/` e `recursos/` ficam **fora do site** (só no seu Obsidian).
