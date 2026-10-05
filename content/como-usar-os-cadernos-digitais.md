@@ -1,0 +1,49 @@
+---
+title: "Como usar os cadernos digitais"
+description: "Como navegar, estudar e criar suas notas no caderno digital."
+tags: [guia, inicio]
+publish: true
+---
+
+O site foi organizado para você chegar ao conteúdo em três passos:
+
+1. **Escolha um concurso** na seção [[concursos/index|Concursos]].
+2. **Escolha uma disciplina** na página do concurso. Cada matéria abre seu próprio caderno.
+3. **Estude pelo caderno da disciplina**: siga o mapa de conteúdo, marque as aulas e abra as notas para aprofundar o assunto.
+
+> [!tip] Começar agora
+> [[concursos/index|Ver concursos →]]
+
+## Seu fluxo de estudo
+
+1. Abra o caderno da disciplina e escolha a próxima aula no mapa.
+2. Marque a aula como concluída depois de estudar.
+3. Crie uma nota quando houver algo que valha guardar: regra, resumo seu, erro ou dúvida.
+4. Adicione o link da nota em **Notas que eu criei** no caderno da disciplina.
+5. Na revisão, registre o que ainda precisa de atenção.
+
+> [!tip] Captura rápida no Obsidian
+> Dentro da pasta da disciplina, pressione `Cmd/Ctrl + N`. O Templater escolhe o modelo da matéria; o nome do arquivo vira o título da nota.
+
+## Modelos por disciplina
+
+- **Direito Constitucional / Direitos Humanos:** regra, aplicação, exceção e questão.
+- **História de Pernambuco:** sequência, contexto e consequência.
+- **Português / Redação:** aplicação, exemplo e erro a evitar.
+- **Raciocínio Lógico / Informática:** explicação livre e exercício resolvido.
+
+Você não precisa preencher todas as seções. Uma nota curta que ajude a lembrar é melhor que uma nota vazia e perfeita.
+
+## Revisão espaçada
+
+Use as caixas como lembretes para rever no dia seguinte, em 7 dias e em 30 dias. O campo `status` pode ser `estudando`, `revisar` ou `dominado`.
+
+## Recursos úteis
+
+- [[recursos/recursos-visuais|🎨 Guia visual dos cadernos]]
+- [[recursos/diagramas-mermaid|🎨 Diagramas a partir de texto]]
+- [[recursos/atalhos-e-plugins|⚙️ Atalhos e plugins]]
+
+## Publicar
+
+O vault é `content/`. O Quartz publica as notas depois que as mudanças chegam ao GitHub. As pastas `.obsidian` e `templates/` ficam fora do site.
