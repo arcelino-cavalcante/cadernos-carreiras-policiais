@@ -1,8 +1,16 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ============================================================
+//  MEU CADERNO — ajustes
+// ============================================================
 
 // Rodapé desativado
 .page-footer {
+  display: none;
+}
+
+// Esconde a listagem automática da pasta quando ela está vazia
+// (ex.: "0 items neste arquivo." no fim dos cadernos)
+.page-listing:has(ul.section-ul:empty) {
   display: none;
 }
