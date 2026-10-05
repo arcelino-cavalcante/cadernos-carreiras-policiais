@@ -1,11 +1,9 @@
 ---
-title: "Cadernos Digitais · Carreiras Policiais"
-description: "Cadernos digitais para estudar por concurso e disciplina."
+title: "Meu Caderno"
+description: "Meu caderno de estudos para concursos."
 tags: [inicio]
 publish: true
 ---
-
-# Cadernos Digitais
 
 Escolha um concurso, abra uma disciplina e estude pelo caderno correspondente.
 

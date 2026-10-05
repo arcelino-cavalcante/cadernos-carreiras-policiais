@@ -6,8 +6,6 @@ tags:
 publish: true
 ---
 
-# Sobre o concurso
-
 **PMPE 2026 — Soldado (Pós-Edital)**
 
 Caderno de estudos do concurso da **Polícia Militar de Pernambuco (PMPE)**, cargo de **Soldado**.
