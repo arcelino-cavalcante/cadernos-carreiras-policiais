@@ -1,5 +1,9 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { QuartzComponent } from "./quartz/components/types"
+
+// Rodapé desativado
+const NoFooter: QuartzComponent = () => null
 
 // Menu lateral: 1) "Como usar os cadernos digitais" (link direto)  2) Concursos  3) demais
 // Pastas com subitens apenas expandem; pastas-folha (matérias) abrem o caderno.
@@ -37,11 +41,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/arcelino-cavalcante/cadernos-carreiras-policiais",
-    },
-  }),
+  footer: NoFooter,
 }
 
 // components for pages that display a single page (e.g. a single note)
@@ -70,7 +70,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     explorer,
   ],
-  right: [Component.Graph(), Component.DesktopOnly(Component.TableOfContents())],
+  right: [Component.DesktopOnly(Component.TableOfContents())],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
