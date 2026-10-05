@@ -2,18 +2,20 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
 // Menu lateral: 1) "Como usar os cadernos digitais" (link direto)  2) Concursos  3) demais
+// Pastas com subitens apenas expandem; pastas-folha (matérias) abrem o caderno.
 const explorer = Component.Explorer({
+  folderClickBehavior: "collapse",
   sortFn: (a, b) => {
     const sa = (a.slugSegment || "").toLowerCase()
     const sb = (b.slugSegment || "").toLowerCase()
     const ra =
-      sa === "como-usar-os-cadernos-digitais" || sa.startsWith("como-usar")
+      sa === "como-usar-os-cadernos-digitais" || sa.startsWith("como-usar") || sa === "sobre-o-concurso"
         ? 0
         : sa === "concursos"
           ? 1
           : 2
     const rb =
-      sb === "como-usar-os-cadernos-digitais" || sb.startsWith("como-usar")
+      sb === "como-usar-os-cadernos-digitais" || sb.startsWith("como-usar") || sb === "sobre-o-concurso"
         ? 0
         : sb === "concursos"
           ? 1

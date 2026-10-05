@@ -9,4 +9,4 @@ Escolha o concurso que você está estudando. Dentro dele, selecione uma discipl
 
 ## Concursos disponíveis
 
-- [[concursos/pmpe-2026-soldado/index|🚔 PMPE 2026 — Soldado]]
+- [[concursos/pmpe-2026-soldado/sobre-o-concurso|🚔 PMPE 2026 — Soldado]]

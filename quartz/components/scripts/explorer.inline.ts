@@ -145,9 +145,10 @@ function createFolderNode(
   }
 
   for (const child of node.children) {
-    const childNode = child.isFolder
-      ? createFolderNode(currentSlug, child, opts)
-      : createFileNode(currentSlug, child)
+    const childNode =
+      child.isFolder && child.children.length > 0
+        ? createFolderNode(currentSlug, child, opts)
+        : createFileNode(currentSlug, child)
     ul.appendChild(childNode)
   }
 
@@ -212,9 +213,10 @@ async function setupExplorer(currentSlug: FullSlug) {
     // Create and insert new content
     const fragment = document.createDocumentFragment()
     for (const child of trie.children) {
-      const node = child.isFolder
-        ? createFolderNode(currentSlug, child, opts)
-        : createFileNode(currentSlug, child)
+      const node =
+        child.isFolder && child.children.length > 0
+          ? createFolderNode(currentSlug, child, opts)
+          : createFileNode(currentSlug, child)
 
       fragment.appendChild(node)
     }
