@@ -12,6 +12,11 @@ Bem-vindo(a)! Aqui ficam os meus **cadernos de estudo** para concursos das carre
 
 - [[concursos/pmpe-2026-soldado/index|🚔 PMPE 2026 (Soldado) - Pós-Edital]]
 
+## 🧰 Recursos e ferramentas
+
+- [[recursos/atalhos-e-plugins|⚙️ Atalhos e plugins do Obsidian]] — como escrever rápido e manter o padrão.
+- [[recursos/diagramas-mermaid|🎨 Diagramas a partir de texto (Mermaid)]] — escreva em texto e vire esquema.
+
 ## 🧭 Atalhos rápidos
 
 - 🔎 Busque qualquer assunto na **barra de busca** (canto superior).

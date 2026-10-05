@@ -60,6 +60,9 @@ Use o [[modelo-de-nota|Modelo de nota]] como ponto de partida. As seções são:
 
 ## 4. Como criar uma nota nova (passo a passo)
 
+> [!tip] Automático no Obsidian
+> Dentro de uma pasta de disciplina, é só criar uma nota nova (`Cmd + N`): o **Templater** já aplica o padrão (data, matéria e seções). Veja [[atalhos-e-plugins]].
+
 1. Vá até a pasta da disciplina (ex.: `raciocinio-logico/`).
 2. Crie um arquivo `.md` com **nome curto e descritivo** (ex.: `equivalencias-logicas.md`).
 3. Cole o conteúdo do [[modelo-de-nota|Modelo de nota]] e preencha o cabeçalho.

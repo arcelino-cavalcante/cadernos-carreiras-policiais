@@ -39,6 +39,19 @@ Pontos importantes:
 - Objetivo: definir o que torna um argumento **correto** ou **incorreto** de modo sistemático.
 - Um argumento pode ser **válido e não convencer**, ou **inválido e convencer** — a lógica cuida da validade, não da persuasão.
 
+## 🗺️ Mapa visual
+
+```mermaid
+flowchart LR
+    A[Sentença] --> B{Declarativa?}
+    B -- Sim --> C{Admite só V ou F?}
+    C -- Sim --> D[Proposição]
+    C -- Não --> E[Sentença aberta / paradoxo]
+    B -- Não --> F[Não é proposição]
+    D --> G[Simples]
+    D --> H[Composta]
+```
+
 ## 🔑 Regras / Fórmulas
 - **Validade lógica ≠ persuasão retórica.**
 - A lógica proposicional é "formal": olha a **estrutura**, não o conteúdo.
