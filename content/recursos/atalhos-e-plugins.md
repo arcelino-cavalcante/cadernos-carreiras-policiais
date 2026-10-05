@@ -1,6 +1,7 @@
 ---
 title: "⚙️ Atalhos e ferramentas"
 tags: [recursos, obsidian]
+publish: true
 ---
 
 # Atalhos
@@ -20,4 +21,4 @@ tags: [recursos, obsidian]
 - **Excalidraw:** esquemas desenhados.
 - **Obsidian Git:** sincronização pelo painel de controle de versão.
 
-Para publicar, envie as mudanças ao GitHub. [[como-usar|Veja o fluxo de estudo]].
+Para publicar, envie as mudanças ao GitHub. [[como-usar-os-cadernos-digitais|Veja o fluxo de estudo]].

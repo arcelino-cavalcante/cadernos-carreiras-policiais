@@ -108,7 +108,7 @@ plugins:
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/alias-redirects"
     enabled: true
   - source: "@quartz-community/content-index"
@@ -132,6 +132,22 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      # Ordem do menu lateral: 1) Como usar (link direto)  2) Concursos  3) demais
+      sortFn: |
+        (a, b) => {
+          const rank = (n) => {
+            const s = (n.slugSegment || "").toLowerCase();
+            if (s === "como-usar-os-cadernos-digitais" || s.startsWith("como-usar")) return 0;
+            if (s === "concursos") return 1;
+            return 2;
+          };
+          const ra = rank(a), rb = rank(b);
+          if (ra !== rb) return ra - rb;
+          const sameType = (!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder);
+          if (sameType) return (a.displayName || "").localeCompare(b.displayName || "", undefined, { numeric: true, sensitivity: "base" });
+          return (!a.isFolder && b.isFolder) ? 1 : -1;
+        }
     layout:
       position: left
       priority: 50

@@ -1,3 +1,97 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Uma gramática visual constante, sem impor um roteiro às notas.
+article {
+  line-height: 1.72;
+
+  h1 {
+    max-width: 22ch;
+    line-height: 1.12;
+    letter-spacing: -0.035em;
+  }
+
+  h2 {
+    margin-top: 2.6rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.38rem;
+    border-bottom: 1px solid var(--lightgray);
+    font-size: clamp(1.35rem, 2.2vw, 1.65rem);
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+
+  h3 {
+    margin-top: 1.8rem;
+    margin-bottom: 0.55rem;
+    font-size: clamp(1.08rem, 1.7vw, 1.25rem);
+    line-height: 1.35;
+  }
+
+  p, li {
+    max-width: 78ch;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem auto;
+    border: 1px solid var(--lightgray);
+    border-radius: 14px;
+  }
+
+  .callout {
+    margin: 1.15rem 0;
+    border-width: 1px 1px 1px 4px;
+    border-radius: 12px;
+    padding: 0 1.1rem;
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--darkgray) 5%, transparent);
+
+    .callout-title {
+      padding: 0.85rem 0 0.6rem;
+      font-weight: 700;
+    }
+
+    .callout-content {
+      line-height: 1.65;
+    }
+  }
+
+  // Amarelo legível nos dois temas para atenção e pontos de prova.
+  .callout[data-callout="warning"] {
+    --color: #946200;
+    --border: #d9a42688;
+    --bg: #d9a42616;
+  }
+
+  .callout[data-callout="danger"] {
+    --color: #c43d4b;
+    --border: #d94b5b88;
+    --bg: #d94b5b13;
+  }
+
+  .callout[data-callout="tip"],
+  .callout[data-callout="success"] {
+    --color: #16836d;
+    --border: #29a88b88;
+    --bg: #29a88b13;
+  }
+
+  .mermaid {
+    margin: 1.4rem 0;
+    padding: 1rem;
+    overflow-x: auto;
+    border: 1px solid var(--lightgray);
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--lightgray) 18%, var(--light));
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+  }
+}

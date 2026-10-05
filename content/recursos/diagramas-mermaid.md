@@ -4,6 +4,7 @@ tags:
   - recursos
   - obsidian
   - mermaid
+publish: true
 ---
 
 # 🎨 Diagramas a partir de texto (Mermaid)
@@ -96,6 +97,15 @@ gantt
     Tabela-verdade   :after a1, 3d
     Equivalências    : 5d
 ```
+
+## Quando usar cada ferramenta
+
+- **Mermaid:** fluxos, relações, sequências e cronologias que você quer editar como texto.
+- **Excalidraw:** esquemas à mão livre, mapas visuais e explicações espaciais.
+- **Imagem:** fotografias, capturas de tela e figuras de livros ou aulas; guarde os arquivos na pasta `anexos` do vault.
+
+> [!warning] Excalidraw no site
+> O plugin do Excalidraw no Obsidian desenha e salva as notas localmente. Para publicar esses desenhos no Quartz, é necessário adicionar também um plugin compatível com Quartz. Mermaid já é a opção que funciona no site sem essa etapa.
 
 ## Dicas
 

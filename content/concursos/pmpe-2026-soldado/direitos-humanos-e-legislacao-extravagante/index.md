@@ -6,6 +6,7 @@ tags:
 materia: "Direitos Humanos E Legislação Extravagante"
 concurso: "PMPE 2026 (Soldado)"
 status: em-andamento
+publish: true
 ---
 
 > [!tip] Estude e registre

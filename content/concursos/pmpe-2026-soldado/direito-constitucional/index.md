@@ -6,6 +6,7 @@ tags:
 materia: "Direito Constitucional"
 concurso: "PMPE 2026 (Soldado)"
 status: em-andamento
+publish: true
 ---
 
 > [!tip] Estude e registre
